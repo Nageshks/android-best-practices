@@ -67,3 +67,20 @@ For example, if your app runs smoothly without optimization, don’t spend time 
 Instead of creating a deep inheritance hierarchy, use composition to build your classes.
 
 For instance, if you have a `UserSession` class, instead of inheriting from a `BaseSession` class, you could compose it with `SessionStorage` and `SessionValidator` components.
+
+# Android Studio
+## Plugins
+
+- **adb_idea - Philippe Breault:**
+  - Enhances ADB (Android Debug Bridge) integration.
+  - Allows for easier device management like app restart, clear app data etc directly from the IDE.
+
+- **JSON to Kotlin Class:**
+  - Converts JSON data into Kotlin data classes.
+
+- **kotlin-fill-class - sususan2go:**
+  - Helps in filling Kotlin classes with default values.
+  - Makes it easier to instantiate and test data classes.
+
+- **Statistic - Ing. Tomas Topinka:**
+  - Mainly used to track lines of code (LOC).
