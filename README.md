@@ -84,3 +84,13 @@ For instance, if you have a `UserSession` class, instead of inheriting from a `B
 
 - **Statistic - Ing. Tomas Topinka:**
   - Mainly used to track lines of code (LOC).
+
+# Build
+## Build APK Using Terminal
+```
+gradlew.bat assembleDebug
+```
+
+```
+gradlew.bat assembleRelease
+```
